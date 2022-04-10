@@ -11,6 +11,8 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { LoginComponent } from './pages/login/login.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { MatCardModule } from '@angular/material/card';
     CheckoutComponent,
     LoginComponent,
     BannerComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     MatIconModule,
     MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

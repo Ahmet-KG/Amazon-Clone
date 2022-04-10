@@ -1,40 +1,98 @@
 [
-    {
-        "id": 1,
+  {
+    "id": 1,
     "title": "xbox one x 1TB",
     "desc": "Microsoft Xbox One X 1Tb Console With Wireless Controller: Xbox One X Enhanced, Hdr, Native 4K, Ultra Hd",
-    "price": 450.00,
-     "image": "https://images-na.ssl-images-amazon.com/images/I/61H3Od2C64L._SL1400_.jpg",
-     "ratings": 4},
-     {   
-        "id": 2,
-        "title": "PlayStation 4 Slim 1TB",
-         "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
-         "price": 488.00,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/814Cwlg1JaL._SL1500_.jpg",
-         "ratings": 5
-     },
-     {
-        "id": 3,
-        "title": "Pro Angular 9: Build Powerful and Dynamic Web Apps", 
-        "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
-         "price": 28.88,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/418hZfmNkXL._SX348_BO1,204,203,200_.jpg",
-         "ratings": 3
-     },
-     {   
-        "id": 4, 
-         "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language", 
-         "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
-         "price": 53.00,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/51wijnc-Y8L._SX379_BO1,204,203,200_.jpg",
-         "ratings": 5
-     },
-     {    "id": 5, 
-         "title":"Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
-         "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
-         "price": 54.36,
-         "image": "https://images-na.ssl-images-amazon.com/images/I/61fpw9inWTL._SL1296_.jpg",
-         "ratings": 2
-     }
+    "price": 450.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61H3Od2C64L._SL1400_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 2,
+    "title": "PlayStation 4 Slim 1TB",
+    "desc": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
+    "price": 488.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/814Cwlg1JaL._SL1500_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 3,
+    "title": "Pro Angular 9: Build Powerful and Dynamic Web Apps",
+    "desc": "Pro Angular 9: Build Powerful and Dynamic Web Apps 4th ed. Edition",
+    "price": 28.88,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/418hZfmNkXL._SX348_BO1,204,203,200_.jpg",
+    "ratings": 3
+  },
+  {
+    "id": 4,
+    "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+    "desc": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+    "price": 53.0,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51wijnc-Y8L._SX379_BO1,204,203,200_.jpg",
+    "ratings": 5
+  },
+  {
+    "id": 5,
+    "title": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast",
+    "desc": "Lavazza Super Crema Whole Bean Coffee Blend, Medium Espresso Roast, 2.2 Pound (Pack of 1)",
+    "price": 54.36,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61fpw9inWTL._SL1296_.jpg",
+    "ratings": 2
+  },
+  {
+    "id": 6,
+    "title": "HyperX Cloud II - Gaming Headset, 7.1",
+    "desc": "Surround Sound, Memory Foam Ear Pads, Durable Aluminum Frame, Detachable Microphone, Works with PC, PS5, PS4",
+    "price": 56.0,
+    "image": "https://m.media-amazon.com/images/I/71g5MRbP52L._AC_UL480_QL65_.jpg",
+    "ratings": 4
+  },
+  {
+    "id": 7,
+    "title": "Samsung SSD T7 Portable External Solid State Drive 1TB",
+    "desc": "Samsung SSD T7 Portable External Solid State Drive 1TB, Up to 1050MB/s, USB 3.2 Gen 2  ",
+    "price": 109.99,
+    "image": "https://m.media-amazon.com/images/I/91YfRIy7kYL._AC_UL480_FMwebp_QL65_.jpg",
+    "ratings": 8
+  },
+  {
+    "id": 8,
+    "title": "Business Travel Backpack",
+    "desc": "Business Travel Backpack, Matein Laptop Backpack with Usb Charging Port for Men Womens Boys Girls, Anti Theft Water Resistant",
+    "price": 38.5,
+    "image": "https://m.media-amazon.com/images/I/81pNjFtVMpL._AC_UL480_FMwebp_QL65_.jpg",
+    "ratings": 6
+  },
+  {
+    "id": 9,
+    "title": "Apple iPhone 12 Pro",
+    "desc": "Apple iPhone 12 Pro, 128GB, Pacific Blue - Unlocked (Renewed Premium)",
+    "price": 799.0,
+    "image": "https://m.media-amazon.com/images/I/31yRKy7VU2L.jpg",
+    "ratings": 10
+  },
+  {
+    "id": 10,
+    "title": "Smart Watch for Android iPhone, Bluetooth Phone Calls",
+    "desc": "Save on Amazfit GTS 2 Smart Watch for Android iPhone, Bluetooth Phone Calls",
+    "price": 139.99,
+    "image": "https://m.media-amazon.com/images/I/41rmtWfdDGL.jpg",
+    "ratings": 9
+  },
+  {
+    "id": 11,
+    "title": "Samsung Galaxy S22",
+    "desc": "Samsung Galaxy S22",
+    "price": 699.99,
+    "image": "https://m.media-amazon.com/images/I/31NTE+hhduL.jpg",
+    "ratings": 9
+  },
+  {
+    "id": 11,
+    "title": "TP-Link WiFi 6 Router AX1800 Smart WiFi Router (Archer AX21)",
+    "desc": "TP-Link WiFi 6 Router AX1800 Smart WiFi Router (Archer AX21)",
+    "price": 79.99,
+    "image": "https://m.media-amazon.com/images/I/41ALh5WbHRL.jpg",
+    "ratings": 5
+  }
 ]
