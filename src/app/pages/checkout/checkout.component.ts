@@ -12,9 +12,15 @@ export class CheckoutComponent implements OnInit {
 
   constructor(public shopping_cart: ShoppingCartService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getShoppingCart();
+  }
 
   getShoppingCart() {
     this.items = this.shopping_cart.getShoppingCardItems();
+  }
+
+  deleteEventHandler(event: Products) {
+    this.getShoppingCart();
   }
 }

@@ -50,10 +50,12 @@
   object-fit: contain;
   width: 100px;
   margin: 12px 20px 0 2px;
+  cursor: pointer;
 }
 .header_menu_signin {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .header_menu_top_item {
   font-size: 10px;
@@ -68,6 +70,7 @@
   margin: 10px 0 0 8px;
   height: 50px;
   justify-content: space-around;
+  cursor: pointer;
 }
 .header_cart_number {
   color: #febd69;

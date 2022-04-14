@@ -105,6 +105,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "amazon-clone:build:production",
+            "firebaseProject": "clone-83843",
+            "firebaseHostingSite": "clone-83843"
+          }
         }
       }
     }

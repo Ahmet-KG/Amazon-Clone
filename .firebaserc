@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "clone-83843": {
+      "hosting": {
+        "amazon-clone": [
+          "clone-83843"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "clone-83843"
+  }
+}
