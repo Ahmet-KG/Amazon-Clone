@@ -5,7 +5,7 @@
 }
 .header_top {
   height: 60px;
-  background-color: #0f1111;
+  background-color: #131921;
   font-size: 14px;
   display: flex;
   color: #ffff;
@@ -87,4 +87,15 @@
   color: #ffff;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 670px) {
+  .header_top {
+    font-size: 9px;
+  }
+
+  .header_menu_icon > mat-icon {
+    font-size: 20px;
+    align-items: center;
+  }
 }

@@ -6,6 +6,8 @@ import { Router } from '@angular/router';
   providedIn: 'root',
 })
 export class AuthService {
+  userData!: any;
+
   constructor(
     private fbAuth: AngularFireAuth,
     private ngZone: NgZone,
@@ -13,7 +15,8 @@ export class AuthService {
   ) {
     this.fbAuth.authState.subscribe((user) => {
       if (user) {
-        console.log(user);
+        this.userData = user;
+        localStorage.setItem('user', this.userData.email);
       }
     });
   }
@@ -42,7 +45,18 @@ export class AuthService {
 
   logOut() {
     return this.fbAuth.signOut().then(() => {
+      localStorage.removeItem('user');
       this.router.navigate(['/login']);
     });
+  }
+
+  isLoggedIn() {
+    const user = localStorage.getItem('user');
+    return user ? true : false;
+  }
+
+  getUser() {
+    const user = localStorage.getItem('user');
+    return user ? user : null;
   }
 }
