@@ -68,12 +68,34 @@
   border-top: solid 1px rgb(219, 218, 218);
   width: 100%;
   text-align: right;
-}
-.checkout_products_subtotal {
   font-size: 17px !important;
   line-height: 1.255 !important;
 }
 
 mat-form-field {
   background-color: gray;
+}
+
+@media only screen and (max-width: 670px) {
+  .checkout_product,
+  .price {
+    padding: 0 20px 0 20px;
+  }
+  .checkout_product_title {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+  }
+  .checkout_products_price {
+    margin-top: 12px;
+    text-align: right;
+    font-size: 12px !important;
+    line-height: 1 !important;
+  }
+  .checkout_products_subtotal {
+    display: none;
+  }
+  .m-hide {
+    display: none;
+  }
 }

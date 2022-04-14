@@ -11,7 +11,7 @@
         alt=""
       />
       <p class="checkout_product_in_stock">In Stock</p>
-      <div class="checkout_product_gift">
+      <div class="checkout_product_gift m-hide">
         <input type="checkbox" />
         <p>This is a gift</p>
         <a class="checkout_product_more">Learn more</a>
@@ -19,8 +19,8 @@
       <div class="checkout_options">
         <div class="checkout_dropdown"></div>
         <a (click)="removeItem(product)"> Delete</a>
-        <a>Save for later</a>
-        <a>Compare with similar items</a>
+        <a class="m-hide">Save for later</a>
+        <a class="m-hide">Compare with similar items</a>
       </div>
     </div>
     <div class="checkout_products_price">

@@ -93,9 +93,21 @@
   .header_top {
     font-size: 9px;
   }
-
   .header_menu_icon > mat-icon {
     font-size: 20px;
     align-items: center;
+  }
+  .header_menu_logo {
+    margin-right: 0;
+    width: 20%;
+  }
+  .m-hide {
+    display: none;
+  }
+  .header_menu_input {
+    padding: unset;
+  }
+  .header_menu_searchbar_icon {
+    height: 20px;
   }
 }

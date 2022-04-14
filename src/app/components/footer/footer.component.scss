@@ -1,0 +1,36 @@
+.footer {
+  height: 100%;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.footer > div {
+  padding-top: 20px;
+}
+.footer h3 {
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.footer a {
+  display: block;
+  color: #ffff;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+  .footer {
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+  }
+  .footer h3 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .footer a {
+    font-size: 9px;
+    padding-bottom: unset;
+  }
+}
